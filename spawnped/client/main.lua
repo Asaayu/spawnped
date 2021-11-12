@@ -62,7 +62,8 @@ RegisterCommand("spawnped", function(source, args)
         )
 
         -- Get the ped to select the weapon we just gave them
-        SetCurrentPedWeapon(
+        SetCurrentPedWeapon
+        (
             ped,
             weaponHash,
             true,
