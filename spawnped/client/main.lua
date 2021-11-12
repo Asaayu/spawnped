@@ -19,7 +19,7 @@ RegisterCommand("spawnped", function(source, args)
         if not IsModelAPed(pedHash) then error("'/spawnped': Provided model name is not a valid ped model.", 0) return end
 
         -- Get player's ped
-        local player = PlayerPedId();
+        local player = PlayerPedId()
 
         -- Get position of the player's ped
         local playerPosition = GetEntityCoords(player, nil)
